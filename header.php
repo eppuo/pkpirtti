@@ -25,7 +25,7 @@
               <li  class="tab5 dropdown">
                 <a class="fa fa-file" href="javascript:void(0)" class="dropbtn" >&nbsp;Hakemukset</a>
                   <div class="dropdown-content">
-                    <a href="paivahoitohakemus.php">Varhaishoitohakemus</a>
+                    <a href="paivahoitohakemus.php">Varhaiskasvatushakemus</a>
                     <a href="esiopetushakemus.php">Esiopetushakemus</a>	
                   </div>
               </li>

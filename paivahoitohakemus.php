@@ -159,7 +159,7 @@ textarea {
       <form action="paivahoitohakemussend.php" method="POST">
 
 <!-- Lapsen henkilötiedot -->
-<h1> Varhaishoitohakemus </h1> <br>
+<h1> Varhaiskasvatushakemus </h1> <br>
 
           <h2> Lapsen henkilötiedot </h2>
 
