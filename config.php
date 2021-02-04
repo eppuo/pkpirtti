@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
-$database = "pirtti_db";
+$password = "qwerty321";
+$database = "pkpirtti_pirtti_db";
 
 $http_host = "http://localhost/pirti/pirtti/";

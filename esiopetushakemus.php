@@ -256,19 +256,9 @@ textarea {
 
         <hr class="style-two">
 
-        <h2> Toivottu hoitoaika </h2>
+        
 
-        <label for="alkpv">Hoidon tarpeen alkamispäivä:</label><br>
-        <input type="text" id="alkamispaiva" name="alkamispaiva" placeholder="Alkamispäivä"><br>
-
-        <label for="hoitopvlukum">Hoitopäivien lukumäärä/kk:</label><br>
-        <input type="text" id="hoitopvlukum" name="hoitopvlukum" placeholder="Hoitopäivät"><br>
-
-        <label for="hoitoaika">Päivittäinen hoitoaika:</label><br>
-        <input type="text" id="hoitoaika" name="hoitoaika" placeholder="Päivittäinen hoitoaika"><br>
-        <hr class="style-two">
-
-        <h2> Kuljetuksen tarve </h2>
+       <h2> Kuljetuksen tarve </h2>
         <select id="kuljetustarve" name="kuljetustarve">
           <option disabled="" selected value="valitse">Valitse</option>
           <option value="ei tarvitse">Lapsi ei tarvitse kuljetusta</option>

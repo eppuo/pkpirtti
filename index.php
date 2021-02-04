@@ -91,13 +91,17 @@
    
     <div class="container2">
       <h1>Päiväkotiyhdistys Pirtti ry</h1>
-    <p>Päiväkotiyhdistys Pirtti ry omistaa ja hallinnoi Päiväkoti Pirttiä ja Moision päiväkotia Mikkelissä.
-
-    Päiväkotiyhdistyksen hallinnosta ja taloudesta vastaa johtokunta , johon kuuluu puheenjohtajan lisäksi kuusi varsinaista jäsentä ja neljä varajäsentä.
-    Johtokunta kokoontuu tarpeen mukaan ja kokouksissa sihteerinä ja asioiden esittelijänä toimii päiväkodin johtaja.Johtokunnan jäsenet ovat Etelä-Savon sairaanhoitopiirin henkilökuntaa ja päiväkodeissa hoidossa olevien lasten vanhempia. <br><br>
-    Päiväkotien yhteisenä johtajana toimii Heli Joensuu. <br>
-    <br>
-    Molemmissa päiväkodeissa annetaan myös esiopetussuunnitelman mukaista esiopetusta.</p>
+    <p>Päiväkotiyhdistys Pirtti ry  ylläpitää Päiväkoti Pirttiä Mikkelissä.Yhdistys on voittoa tavoittalematon. Päiväkotiyhdistyksen hallinnosta ja taloudesta vastaa johtokunta, johon kuuluu puheenjohtajan lisäksi kuusi varsinaista jäsentä ja neljä varajäsentä. Johtokunta kokoontuu tarpeen mukaan ja kokouksissa sihteerinä ja asioiden esittelijänä toimii päiväkodin johtaja. Johtokunnan jäsenet ovat  päiväkodeissamme hoidossa olevien lasten vanhempia.
+    <br><br>
+    Päiväkodissa annetaan myös esiopetussuunnitelman mukaista esiopetusta.
+    <br><br>
+    Päiväkodissamme on käytössä yksityisen päiväkotihoidon palveluseteli.Perhe hakee seteliä Mikkelin kaupungilta saatuaan varmistuksen päivähoitopaikan myöntämisestä.Varhaiskasvatuksen asiakasmaksut määräytvät <a href="https://www.oppiminen.mikkeli.fi/varhaiskasvatus-ja-esiopetus/varhaiskasvatuksen-asiakasmaksut/">kaupungin määritelemien maksumääritysperusteiden</a> mukaan. Kaupungin määrittelemään hoitomaksuun lisätään yksityisen päiväkotihoidon omavastuulisä, joka on kokopäivähoidossa olevilta lapsilta 30 e/kk.
+    <br><br>
+    Tutustu toimintaamme myös Facebookissa :  Päiväkotiyhdistys Pirtti ry
+    <br><br>
+    Tällä hetkellä päiväkodissamme on vapaana 2 paikkaa alle 3-vuotiaille lapsille.
+    <br><br>
+    Lisätiedot : Päiväkodin johtaja Heli Joensuu p.0440 214 297 tai pkpirttiry@surffi.fi</p>
     </div>
 
 
