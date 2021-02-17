@@ -289,7 +289,7 @@ textarea {
         <label for="lisatiedot">Lisätiedot hakemuksen perusteeksi:</label><br>
         <textarea name="lisatiedot" rows="8" cols="100"></textarea><br>
 
-        <input type="submit" value="submit">
+        <input type="submit" value="Lähetä">
       </form>
 
 

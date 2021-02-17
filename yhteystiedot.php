@@ -43,6 +43,7 @@
                   <img src="assets/img/facebook.png" style="width:50px;height:50px;">
                 </a>
 
+
             
                 
                 <button id="kartalla" onclick="window.location.href='https://goo.gl/maps/dLP99r2Ds8n'">Näytä kartalla <strong>(Päiväkoti pirtti)</strong></button>

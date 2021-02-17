@@ -42,11 +42,11 @@
    
     <div class="container2">
       <h1>Päiväkotiyhdistys Pirtti ry</h1>
-    <p>Päiväkotiyhdistys Pirtti ry  ylläpitää Päiväkoti Pirttiä Mikkelissä.Yhdistys on voittoa tavoittalematon. Päiväkotiyhdistyksen hallinnosta ja taloudesta vastaa johtokunta, johon kuuluu puheenjohtajan lisäksi kuusi varsinaista jäsentä ja neljä varajäsentä. Johtokunta kokoontuu tarpeen mukaan ja kokouksissa sihteerinä ja asioiden esittelijänä toimii päiväkodin johtaja. Johtokunnan jäsenet ovat  päiväkodeissamme hoidossa olevien lasten vanhempia.
+    <p>Päiväkotiyhdistys Pirtti ry  ylläpitää Päiväkoti Pirttiä Mikkelissä. Yhdistys on voittoa tavoittalematon. Päiväkotiyhdistyksen hallinnosta ja taloudesta vastaa johtokunta, johon kuuluu puheenjohtajan lisäksi kuusi varsinaista jäsentä ja neljä varajäsentä. Johtokunta kokoontuu tarpeen mukaan ja kokouksissa sihteerinä ja asioiden esittelijänä toimii päiväkodin johtaja. Johtokunnan jäsenet ovat  päiväkodeissamme hoidossa olevien lasten vanhempia.
     <br><br>
     Päiväkodissa annetaan myös esiopetussuunnitelman mukaista esiopetusta.
     <br><br>
-    Päiväkodissamme on käytössä yksityisen päiväkotihoidon palveluseteli.Perhe hakee seteliä Mikkelin kaupungilta saatuaan varmistuksen päivähoitopaikan myöntämisestä.Varhaiskasvatuksen asiakasmaksut määräytvät <a href="https://www.oppiminen.mikkeli.fi/varhaiskasvatus-ja-esiopetus/varhaiskasvatuksen-asiakasmaksut/">kaupungin määritelemien maksumääritysperusteiden</a> mukaan. Kaupungin määrittelemään hoitomaksuun lisätään yksityisen päiväkotihoidon omavastuulisä, joka on kokopäivähoidossa olevilta lapsilta 30 e/kk.
+    Päiväkodissamme on käytössä yksityisen päiväkotihoidon palveluseteli. Perhe hakee seteliä Mikkelin kaupungilta saatuaan varmistuksen päivähoitopaikan myöntämisestä. Varhaiskasvatuksen asiakasmaksut määräytvät <a href="https://www.oppiminen.mikkeli.fi/varhaiskasvatus-ja-esiopetus/varhaiskasvatuksen-asiakasmaksut/">kaupungin määritelemien maksumääritysperusteiden</a> mukaan. Kaupungin määrittelemään hoitomaksuun lisätään yksityisen päiväkotihoidon omavastuulisä, joka on kokopäivähoidossa olevilta lapsilta 30 e/kk.
     <br><br>
     Tutustu toimintaamme myös Facebookissa :  Päiväkotiyhdistys Pirtti ry
     <br><br>
