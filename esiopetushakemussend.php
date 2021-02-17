@@ -102,7 +102,7 @@
 	} else {
 		// kantaan
 		require('db.php');
-	// INSERT esiopetushakemus (paivakoti, huoltajasahkoposti, huoltajapuhelin, hakumuspvm)
+	// INSERT esiopetushakemus (paivakoti, huoltajasahkoposti, huoltajapuhelin, hakemuspvm)
 
 	$sql = "INSERT INTO esiopetushakemus (paivakoti, huoltajasahkoposti, huoltajapuhelin, pvm, hash) VALUES ('$paivakoti', '$huoltajasahkoposti', '$huoltajapuhelin',  DATE(NOW()), '$hash')" ;
 	if ($conn->query($sql) === TRUE) {
