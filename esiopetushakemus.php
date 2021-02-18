@@ -205,6 +205,9 @@ textarea {
   <label for="tyo">Nykyinen työ-/opiskelupaikka:</label><br>
   <input type="text" id="huoltajatyo" name="huoltajatyo" placeholder="Nykyinen työ-/opiskelupaikka"><br>
 
+  <label for="tyo">Puhelinnumero:</label><br>
+  <input type="text" id="huoltajapuhelin" name="huoltajapuhelin" placeholder="Puhelinnumero"><br>
+
   <label for="taika">Työaika esim(7:00-15:00):</label><br>
   <input type="text" id="huoltajatyoaika" name="huoltajatyoaika" placeholder="Työaika"><br>
 

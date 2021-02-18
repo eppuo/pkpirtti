@@ -8,7 +8,6 @@
 	$lapsihenkilotunnus = $_POST['lapsihenkilotunnus'];
   $lapsiosoite = $_POST['lapsiosoite'];
   $lapsikotikunta = $_POST['lapsikotikunta'];
-  $puhkoti = $_POST['puhkoti'];
 	$lapsiaidinkieli = $_POST['lapsiaidinkieli'];
 	$lemmikkeja = $_POST['lemmikkeja'];
 	$huoltajaetunimi = $_POST['huoltajaetunimi'];
@@ -38,15 +37,16 @@
 	$sairaudet = $_POST['sairaudet'];
 	$sairaalahoidot = (isset($_POST['sairaalahoidot'])) ? $_POST['sairaalahoidot'] : "";
 	$lisatiedot = (isset($_POST['lisatiedot'])) ? $_POST['lisatiedot'] : "";
+	$huoltajapuhelin = $_POST['huoltajapuhelin'];
 	$message =
 
-						"Päiväkoti: $paivakoti"
+						"Päiväkoti:"
 	.PHP_EOL.	"Lapsen etunimet: $lapsietunimi "
 	.PHP_EOL.	"Lapsen sukunimi:   $lapsisukunimi"
 	.PHP_EOL.	"Lapsen henkilötunnus:   $lapsihenkilotunnus"
   .PHP_EOL.	"Lähiosoite, postinumero ja postitoimipaikka: $lapsiosoite"
   .PHP_EOL.	"Kotikunta: $lapsikotikunta"
-  .PHP_EOL.	"Puhelin kotiin: $puhkoti"
+  .PHP_EOL.	"Huoltajan puhelinnumero:   $huoltajapuhelin"
 	.PHP_EOL.	"Lapsen äidinkieli:   $lapsiaidinkieli"
 	.PHP_EOL.	"Onko kotona lemmikkieläimiä:   $lemmikkeja"
 	.PHP_EOL. PHP_EOL. PHP_EOL.
@@ -91,7 +91,7 @@
 	.PHP_EOL. PHP_EOL. PHP_EOL.
 	PHP_EOL.	"Älä vastaa tähän viestiin!";
 
-	$hash = md5($paivakoti.$huoltajasahkoposti.$huoltajapuhelin.$pvm);
+	$hash = md5($huoltajasahkoposti.$huoltajapuhelin.$pvm);
 
 	$message .= PHP_EOL. "Kuittaa hakemus luetuksi: " . $http_host  ."verify.php?email=$huoltajasahkoposti&hash=$hash";
 
@@ -102,9 +102,9 @@
 	} else {
 		// kantaan
 		require('db.php');
-	// INSERT esiopetushakemus (paivakoti, huoltajasahkoposti, huoltajapuhelin, hakemuspvm)
+	
 
-	$sql = "INSERT INTO esiopetushakemus (paivakoti, huoltajasahkoposti, huoltajapuhelin, pvm, hash) VALUES ('$paivakoti', '$huoltajasahkoposti', '$huoltajapuhelin',  DATE(NOW()), '$hash')" ;
+	$sql = "INSERT INTO esiopetushakemus (huoltajasahkoposti, huoltajapuhelin, pvm, hash) VALUES ('$huoltajasahkoposti', '$huoltajapuhelin',  DATE(NOW()), '$hash')" ;
 	if ($conn->query($sql) === TRUE) {
     echo "";
 } else {

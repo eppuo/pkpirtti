@@ -92,7 +92,7 @@
 	} else {
 		// kantaan
 		require('db.php');
-	// INSERT paivahoitohakemus (huoltajasahkoposti, huoltajapuhelin, hakumuspvm)
+	
 
 	$sql = "INSERT INTO varhaiskasvatushakemus (huoltajasahkoposti, huoltajapuhelin, pvm, hash) VALUES ('$huoltajasahkoposti', '$huoltajapuhelin',  DATE(NOW()), '$hash')" ;
 	if ($conn->query($sql) === TRUE) {
