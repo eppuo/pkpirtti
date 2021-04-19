@@ -23,11 +23,9 @@
           document.getElementById("hide").onclick = function() {myFunction()};
     </script>
   <body>
-    
 
 	    <?php include 'header.php';?>
-  
-  
+
   <section id="showcase">
   <h1><strong>Päiväkoti Pirtti</strong></h1>
 
@@ -43,34 +41,60 @@
   </section>
 
   <section id="boxes"> 
+
+   <!-- Luodaan yhteys tietokantaan ja tulostetaan siellä olevat tekstit sivulle -->
+
+  <?php
+
+      include 'admin/db.php';
+
+      $html_content= "";
+
+      $sql = "SELECT * FROM content WHERE page_name = 'pirtti'";
+      $results = mysqli_query($conn, $sql);
+
+      if(mysqli_num_rows($results)) {
+        while ($rows = mysqli_fetch_array($results)) {
+          echo '<div class="container-x ' . $rows['class'] . '">';
+          echo $rows['html_content'];
+          echo '</div>';
+        }
+      }
+
+  ?>
    
-    <div class="container2">
-      <p><strong>Päiväkoti Pirtti</strong> on Päiväkotyhdistys Pirtti ry:n ylläpitämä yksityinen päiväkoti Mikkelissä. Päiväkoti on aloittanut toimintansa vuonna 1977. Päiväkoti Pirtti sijaitsee Tikanpellon alueella Tuppuralan kaupunginosassa. 
-Mikkelin kaupunki valvoo päiväkodin toimintaa ja sen toimintaa ohjaavat samat lait ja asetukset kuin kunnallista varhaiskasvatusta. Päiväkodissamme on käytössä yksityisen päiväkotihoidon palveluseteli. Perhe hakee palveluseteliä Mikkelin kaupungilta saatuaan päivähoitopaikan päiväkodista. Varhaiskasvatuksen asiakasmaksut määräytyvät kunnallisten maksumääritysperusteiden mukaan. Kunnalliseen asiakasmaksuun lisätään yksityisen päivähoidon omavastuulisä, joka on kokopäivähoidossa olevilta 30 euroa kuukaudessa.
-Päiväkoti Pirtissä toimii viisi lapsiryhmää 1-6 – vuotiaille lapsille.
-</p>
-      <a href="assets/PDF/Omavalvontasuunnitelma Pirtti.docx">Omavalvontasuunnitelma</a>
+    <div class="container-x">
+
     </div>
 
     <div class="container3">
-      <p>
-          <h1>Ryhmät:</h1>
+      <!-- <p>
+          <h1>Ryhmä HAU:</h1>
           <ul>
           <li>Nuput, 1-3 -vuotiaat (8 päivähoitopaikkaa)</li>
           <li>Metsätähdet, 3-4 -vuotiaat (8 päivähoitopaikkaa)</li>
-          <li>Sinikellot , 4-5 -vuotiaat (14-16 päivähoitopaikkaa)</li>
+          <li>Sinikellot, 4-5 -vuotiaat (14-16 päivähoitopaikkaa)</li>
           <li>Esikot, esikoulu (8-10 esiopetuspaikkaa)</li>
         </ul>
-      </p>
+      </p> -->
         </div>
     <div class="container4">
-      <p>Henkilökuntaan kuuluu neljä lastentarhanopettajaa, kolme lastenhoitajaa sekä avustaja.
-      </p>
+      <!-- <p>Henkilökuntaan kuuluu neljä lastentarhanopettajaa, kolme lastenhoitajaa sekä avustaja.
+      </p> -->
     </div>
-    
+    <!-- <div class="container5">
+      <p> <h1>Henkilökunta:</h1><br>
+        Heli Joensuu, päiväkodin johtaja / lastentarhanopettaja<br>
+        Sari Pekkanen, varajohtaja, sosionomi (amk)<br>
+        Eija Laamanen, lastentarhanopettaja<br>
+        Riitta Ruuska , lastenhoitaja<br>
+        Arja Hurri , päivähoitaja<br>
+        Taija Virtanen, lähihoitaja<br>
+      </p>
+    </div> -->
   </section>
   <footer>
-      <a href="adminimg.php"><p>Päiväkotiyhdistys Pirtti ry, Copyright &copy; 2018</p></a>
+      <a href="login.php"><p>Päiväkotiyhdistys Pirtti ry, Copyright &copy; 2018</p></a>
 
   </footer>
   </body>

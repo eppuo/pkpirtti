@@ -23,9 +23,8 @@
           document.getElementById("hide").onclick = function() {myFunction()};
     </script>
   <body>
-    
-    <?php include 'header.php';?>
-  
+
+	    <?php include 'header.php';?>
   
   <section id="showcase">
     <div class="container">
@@ -39,27 +38,28 @@
   </section>
 
   <section id="boxes"> 
+
+      <!-- Luodaan yhteys tietokantaan ja tulostetaan siellä olevat tekstit sivulle -->
+
+      <?php
+
+      include './admin/db.php';
+
+      $sql = "SELECT * FROM content WHERE page_name = 'index'";
+      $results = mysqli_query($conn, $sql);
+      $row = mysqli_fetch_array($results);
+      ?>
    
-    <div class="container2">
-      <h1>Päiväkotiyhdistys Pirtti ry</h1>
-    <p>Päiväkotiyhdistys Pirtti ry  ylläpitää Päiväkoti Pirttiä Mikkelissä. Yhdistys on voittoa tavoittalematon. Päiväkotiyhdistyksen hallinnosta ja taloudesta vastaa johtokunta, johon kuuluu puheenjohtajan lisäksi kuusi varsinaista jäsentä ja neljä varajäsentä. Johtokunta kokoontuu tarpeen mukaan ja kokouksissa sihteerinä ja asioiden esittelijänä toimii päiväkodin johtaja. Johtokunnan jäsenet ovat  päiväkodeissamme hoidossa olevien lasten vanhempia.
-    <br><br>
-    Päiväkodissa annetaan myös esiopetussuunnitelman mukaista esiopetusta.
-    <br><br>
-    Päiväkodissamme on käytössä yksityisen päiväkotihoidon palveluseteli. Perhe hakee seteliä Mikkelin kaupungilta saatuaan varmistuksen päivähoitopaikan myöntämisestä. Varhaiskasvatuksen asiakasmaksut määräytvät <a href="https://www.oppiminen.mikkeli.fi/varhaiskasvatus-ja-esiopetus/varhaiskasvatuksen-asiakasmaksut/">kaupungin määritelemien maksumääritysperusteiden</a> mukaan. Kaupungin määrittelemään hoitomaksuun lisätään yksityisen päiväkotihoidon omavastuulisä, joka on kokopäivähoidossa olevilta lapsilta 30 e/kk.
-    <br><br>
-    Tutustu toimintaamme myös Facebookissa :  Päiväkotiyhdistys Pirtti ry
-    <br><br>
-    Tällä hetkellä päiväkodissamme on vapaana 2 paikkaa alle 3-vuotiaille lapsille.
-    <br><br>
-    Lisätiedot : Päiväkodin johtaja Heli Joensuu p.0440 214 297 tai pkpirttiry@surffi.fi</p>
+    <div class="container-x <?php echo $row['class']; ?>">
+
+      <?php echo $row['html_content']; ?>
+
     </div>
 
 
   </section>
   <footer>
-      <a href="adminimg.php"><p>Päiväkotiyhdistys Pirtti ry, Copyright &copy; 2018</p></a>
-
+      <a href="admin/"><p>Päiväkotiyhdistys Pirtti ry, Copyright &copy; 2018</p></a>
   </footer>
   </body>
 
